@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npx gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +16,6 @@
     "babel-loader": "^9.1.2",
     "copy-webpack-plugin": "^11.0.0",
     "gh": "^2.8.9",
-    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.1",
     "webpack": "^5.82.0",
     "webpack-cli": "^5.0.2",
